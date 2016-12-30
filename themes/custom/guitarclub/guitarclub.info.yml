@@ -1,0 +1,10 @@
+name: Guitarclub
+description: Drupal 8 sub theme
+type: theme
+core: 8.x
+libraries:
+  - guitarclub/global-css
+  - guitarclub/global-js
+stylesheets-remove:
+  - core/themes/stable/css/views/views.module.css
+  - core/themes/stable/css/system/components/align.module.css
